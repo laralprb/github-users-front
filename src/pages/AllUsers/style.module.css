@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddedaa;
+  width: 700px;
+  margin: auto;
+  border-radius: 15px;
+  padding: 30px;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
