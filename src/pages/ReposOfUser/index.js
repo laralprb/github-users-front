@@ -82,19 +82,14 @@ export function ReposOfUser() {
           </>
         </p>
         <div className={style.button}>
-          <Button
-            size="small"
-            color="error"
-            variant="contained"
-            href={`/users`}
-          >
+          <Button size="small" color="error" variant="contained" href={`/`}>
             Home
           </Button>
           <Button
             size="small"
             color="error"
             variant="contained"
-            href={`/users/${username}`}
+            href={`/${username}`}
           >
             User details
           </Button>

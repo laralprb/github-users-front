@@ -57,19 +57,14 @@ export function DetailsOfUser() {
               <p>User since: {formattedDate}</p>
             </Typography>
             <div className={style.button}>
-              <Button
-                size="small"
-                color="error"
-                variant="contained"
-                href={`/users`}
-              >
+              <Button size="small" color="error" variant="contained" href={`/`}>
                 Home
               </Button>
               <Button
                 size="small"
                 color="error"
                 variant="contained"
-                href={`/users/${username}/repos`}
+                href={`/${username}/repos`}
               >
                 Repositories
               </Button>

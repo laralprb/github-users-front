@@ -47,7 +47,7 @@ export function AllUsers() {
                   color="error"
                   variant="outlined"
                   size="small"
-                  href={`/users/${user.login}`}
+                  href={`/${user.login}`}
                 >
                   more details
                 </Button>

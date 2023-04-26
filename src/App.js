@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/users" element={<AllUsers />} />
-        <Route path="/users/:username" element={<DetailsOfUser />} />
-        <Route path="/users/:username/repos" element={<ReposOfUser />} />
+        <Route path="/" element={<AllUsers />} />
+        <Route path="/:username" element={<DetailsOfUser />} />
+        <Route path="/:username/repos" element={<ReposOfUser />} />
       </Routes>
     </div>
   );
